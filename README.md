@@ -46,11 +46,13 @@ Desenvolvimento de uma análise sobre os dados de acidentes da PRF, com foco na 
 
 * Organização e limpeza dos dados
 * Criação de colunas auxiliares
-* Aplicação de fórmulas
-* Análise estatística
-* Criação de indicadores
+* Aplicação de fórmulas condicionais
+* Construção de Tabelas Dinâmicas
+* Análise estatística e geração de indicadores
+* Análise de acidentes por UF, BR, mês, causa e município
+* Análise de acidentes fatais
 * Construção de gráficos
-* Desenvolvimento de dashboard executivo
+* Registro e interpretação dos principais resultados
 
 ---
 
@@ -114,7 +116,7 @@ analise-dados-prf-2025/
 │
 ├── unidade-01-excel-fundamentos/
 │
-├── unidade-02-excel-dashboard/
+├── unidade-02-excel-analise-visualizacao/
 │   └── imagens/
 │
 ├── unidade-03-sql-sqlite/
