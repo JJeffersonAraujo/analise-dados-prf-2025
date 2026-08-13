@@ -1,0 +1,18 @@
+﻿variavel;descricao;uso
+acidente_fatal;"1 se mortos >= 1; 0 se mortos = 0";alvo
+total_vitimas;mortos + feridos leves + feridos graves;analise/dashboard
+acidente_grave;"1 se houver morto ou ferido grave; 0 caso contrário";analise/dashboard
+indice_gravidade;mortos*3 + feridos_graves*2 + feridos_leves;analise/dashboard
+br_formatada;BR padronizada no formato BR-000;analise/modelagem
+chave_localidade;UF + município + BR formatada;analise/dashboard
+turno;MADRUGADA, MANHA, TARDE, NOITE ou IGNORADO;analise/modelagem
+faixa_horaria;Agrupamento da hora em blocos de 3 horas;analise/modelagem
+fim_de_semana;"1 para sábado/domingo; 0 para demais dias";analise/modelagem
+mortos;Quantidade de mortos na ocorrência;PROIBIDA NA MODELAGEM - define diretamente o alvo
+feridos;Quantidade total de feridos;PROIBIDA NA MODELAGEM - informação associada ao desfecho
+feridos_leves;Quantidade de feridos leves;PROIBIDA NA MODELAGEM - informação associada ao desfecho
+feridos_graves;Quantidade de feridos graves;PROIBIDA NA MODELAGEM - informação associada ao desfecho
+total_vitimas;Mortos + feridos leves + feridos graves;PROIBIDA NA MODELAGEM - derivada do desfecho
+indice_gravidade;Índice calculado a partir de mortos e feridos;PROIBIDA NA MODELAGEM - derivada do desfecho
+acidente_grave;Indicador baseado em mortos ou feridos graves;PROIBIDA NA MODELAGEM - derivada do desfecho
+classificacao_acidente;Classificação da gravidade da ocorrência;PROIBIDA NA MODELAGEM - risco de data leakage
