@@ -1,7 +1,7 @@
 
 # Decisões de tratamento — Módulo 4
 
-Data de geração: 2026-08-08 19:18
+Data de geração: 2026-08-14 10:05
 
 ## Principais decisões
 
@@ -19,6 +19,6 @@ Data de geração: 2026-08-08 19:18
 
 ## Arquivos gerados
 
-- dados_tratados\base_analitica_prf_2025.csv
-- dados_tratados\base_modelavel_prf_2025.csv
-- dados_tratados\dicionario_variaveis_modulo4.csv
+- C:\analise-dados-prf-2025\unidade-04-python-preparacao-dados\dados_tratados\base_analitica_prf_2025.csv
+- C:\analise-dados-prf-2025\unidade-04-python-preparacao-dados\dados_tratados\base_modelavel_prf_2025.csv
+- C:\analise-dados-prf-2025\unidade-04-python-preparacao-dados\dados_tratados\dicionario_variaveis_modulo4.csv
