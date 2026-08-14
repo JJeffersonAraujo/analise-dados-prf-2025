@@ -117,15 +117,16 @@ analise-dados-prf-2025/
 ├── unidade-01-excel-fundamentos/
 │
 ├── unidade-02-excel-analise-visualizacao/
-│   └── imagens/
+│   
 │
 ├── unidade-03-sql-sqlite/
 │   ├── sql/
 │   └── resultados/
 │
 └── unidade-04-python-preparacao-dados/
-    ├── notebooks/
     └── dados_tratados/
+    └── documentacao/
+    ├── notebooks/
 ```
 
 ---
