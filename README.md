@@ -1,159 +1,216 @@
-# Análise de Dados — PRF 2025
+# Análise de Dados --- PRF 2025
 
-Repositório desenvolvido durante o módulo de **Análise de Dados**, reunindo atividades práticas realizadas com **Excel, SQL, SQLite e Python**, utilizando dados públicos de acidentes registrados pela **Polícia Rodoviária Federal (PRF)**.
+Repositório desenvolvido durante a formação em **Análise de Dados**,
+documentando a evolução de um projeto completo de dados utilizando
+informações públicas de acidentes registrados pela **Polícia Rodoviária
+Federal (PRF)**.
 
-O projeto acompanha diferentes etapas do processo de análise de dados, passando por **exploração, tratamento, análise estatística, consultas SQL, visualização e preparação dos dados**.
+O projeto acompanha o ciclo de vida de uma análise de dados, desde a
+exploração inicial dos dados, preparação, consultas estruturadas,
+criação de indicadores, análise exploratória e geração de insights para
+apoio à tomada de decisão.
 
----
+------------------------------------------------------------------------
 
-## 📚 Unidades do Módulo
+# Estrutura do Projeto
 
-| Unidade | Tema                                | Tecnologias     |
-| :-----: | ----------------------------------- | --------------- |
-|    01   | Fundamentos de Análise de Dados     | Excel           |
-|    02   | Análise e Visualização de Acidentes | Excel           |
-|    03   | Consultas, Indicadores e Views      | SQL / SQLite    |
-|    04   | Preparação e Tratamento de Dados    | Python / Pandas |
+O projeto está dividido em dois módulos principais:
 
----
+## Módulo 01 --- Fundamentos de Analytics
 
-## 📊 Unidade 01 — Excel: Fundamentos
+Abrange as etapas iniciais de construção da base analítica:
 
-Aplicação de operações, funções estatísticas e recursos de análise utilizando o conjunto de dados disponibilizado durante o módulo.
+-   Fundamentos de Excel;
+-   Análise e visualização de dados;
+-   Consultas SQL e SQLite;
+-   Preparação e tratamento de dados utilizando Python e Pandas.
+
+## Módulo 02 --- Data Analytics e EDA
+
+Abrange a etapa de transformação dos dados preparados em análises
+estratégicas:
+
+-   Data Analytics Canvas;
+-   Definição de indicadores;
+-   Análise exploratória de dados (EDA);
+-   Cruzamento de variáveis;
+-   Storytelling com dados;
+-   Apresentação executiva dos resultados.
+
+------------------------------------------------------------------------
+
+# 📚 Módulo 01 --- Fundamentos de Analytics
+
+## Unidade 01 --- Excel: Fundamentos
+
+Aplicação dos fundamentos de planilhas eletrônicas utilizando a base de
+acidentes da PRF 2025.
 
 ### Principais conteúdos
 
-* Operações matemáticas
-* Referências absolutas
-* Funções de máximo e mínimo
-* Remoção de duplicatas
-* CONT, CONT.SE e CONT.SES
-* SOMA, SOMA.SE e SOMA.SES
-* MÉDIA e MÉDIA.SE
-* MODA e MEDIANA
-* Quartis
-* PROCV
-* Construção de gráficos
-* Tabelas dinâmicas
+-   Operações matemáticas;
+-   Referências absolutas;
+-   Funções estatísticas;
+-   Remoção de duplicidades;
+-   CONT, CONT.SE e CONT.SES;
+-   SOMA, SOMA.SE e SOMA.SES;
+-   MÉDIA e MÉDIA.SE;
+-   Moda e mediana;
+-   Quartis;
+-   PROCV;
+-   Construção de gráficos;
+-   Tabelas dinâmicas.
 
----
+------------------------------------------------------------------------
 
-## 📈 Unidade 02 — Excel: Análise e Visualização de Acidentes
+## Unidade 02 --- Excel: Análise e Visualização de Acidentes
 
-Desenvolvimento de uma análise sobre os dados de acidentes da PRF, com foco na transformação dos dados brutos em **informações visuais e indicadores**.
+Transformação dos dados brutos em informações analíticas utilizando
+recursos de organização, cálculo e visualização.
 
 ### Principais atividades
 
-* Organização e limpeza dos dados
-* Criação de colunas auxiliares
-* Aplicação de fórmulas condicionais
-* Construção de Tabelas Dinâmicas
-* Análise estatística e geração de indicadores
-* Análise de acidentes por UF, BR, mês, causa e município
-* Análise de acidentes fatais
-* Construção de gráficos
-* Registro e interpretação dos principais resultados
+-   Organização dos dados;
+-   Criação de colunas auxiliares;
+-   Aplicação de fórmulas condicionais;
+-   Construção de tabelas dinâmicas;
+-   Criação de indicadores;
+-   Análise por UF, BR, município, causa e tipo de acidente;
+-   Análise de acidentes fatais;
+-   Construção de gráficos;
+-   Interpretação dos resultados.
 
----
+------------------------------------------------------------------------
 
-## 🗄️ Unidade 03 — SQL com SQLite
+## Unidade 03 --- SQL com SQLite
 
-Utilização de **SQL e SQLite** para realizar consultas, análises e geração de indicadores relacionados aos acidentes rodoviários.
+Utilização de SQL e SQLite para consultas estruturadas e geração de
+indicadores analíticos.
 
 ### Principais análises
 
-* Acidentes por UF
-* Acidentes por BR
-* Evolução mensal dos acidentes
-* Causas dos acidentes
-* Tipos de acidentes
-* Condições climáticas
-* Fase do dia
-* Tipo de pista
-* Análises bivariadas
-* Indicadores mensais
-* Indicadores por UF e BR
+-   Acidentes por UF;
+-   Acidentes por BR;
+-   Evolução mensal;
+-   Causas dos acidentes;
+-   Tipos de acidentes;
+-   Condições climáticas;
+-   Fase do dia;
+-   Tipo de pista;
+-   Análises bivariadas;
+-   Indicadores mensais;
+-   Indicadores por UF e BR.
 
-Também foram utilizadas **Views SQL** para consolidação e organização dos indicadores gerados durante as análises.
+Também foram utilizadas Views SQL para organização e consolidação dos
+resultados.
 
----
+------------------------------------------------------------------------
 
-## 🐍 Unidade 04 — Python: Preparação dos Dados
+## Unidade 04 --- Python: Preparação dos Dados
 
-Preparação e transformação dos dados utilizando **Python, Pandas e Jupyter Notebook**.
+Preparação, transformação e validação dos dados utilizando Python,
+Pandas e Jupyter Notebook.
 
 ### Principais etapas
 
-* Carregamento dos dados
-* Inspeção da estrutura do conjunto de dados
-* Tratamento de valores ausentes
-* Padronização dos dados
-* Transformação de colunas
-* Validação dos dados
-* Preparação do conjunto de dados para análises posteriores
+-   Carregamento dos dados;
+-   Análise da estrutura do dataset;
+-   Tratamento de valores ausentes;
+-   Padronização de informações;
+-   Transformação de variáveis;
+-   Validação dos dados;
+-   Construção das bases analíticas.
 
----
+------------------------------------------------------------------------
 
-## 🛠️ Tecnologias e Ferramentas
+# 📊 Módulo 02 --- Data Analytics e EDA
 
-* **Microsoft Excel**
-* **SQL**
-* **SQLite**
-* **Python**
-* **Pandas**
-* **Jupyter Notebook**
-* **Git**
-* **GitHub**
+## Unidade 05 --- Analytics PRF
 
----
+Aplicação dos conceitos de Analytics utilizando os dados tratados da PRF
+2025.
 
-## 📁 Estrutura do Repositório
+### Principais atividades
 
-```text
+-   Construção do Data Analytics Canvas;
+-   Definição de KPIs;
+-   Análise exploratória dos acidentes;
+-   Avaliação de fatores de severidade;
+-   Cruzamento entre variáveis operacionais e ambientais;
+-   Construção de gráficos analíticos;
+-   Desenvolvimento de apresentação executiva;
+-   Storytelling baseado em dados.
+
+------------------------------------------------------------------------
+
+# 🛠️ Tecnologias e Ferramentas
+
+-   Microsoft Excel;
+-   SQL;
+-   SQLite;
+-   Python;
+-   Pandas;
+-   Jupyter Notebook;
+-   Git;
+-   GitHub.
+
+------------------------------------------------------------------------
+
+# 📁 Estrutura do Repositório
+
+``` text
 analise-dados-prf-2025/
-│
+
 ├── dados/
+
+├── modulo-01-fundamentos-analytics/
 │
-├── unidade-01-excel-fundamentos/
+│   ├── unidade-01-excel-fundamentos/
+│   ├── unidade-02-excel-analise-visualizacao/
+│   ├── unidade-03-sql-sqlite/
+│   └── unidade-04-python-preparacao-dados/
 │
-├── unidade-02-excel-analise-visualizacao/
-│   
+├── modulo-02-data-analytics-eda/
 │
-├── unidade-03-sql-sqlite/
-│   ├── sql/
-│   └── resultados/
+│   └── unidade-05-analytics-prf/
+│       ├── canvas/
+│       ├── excel/
+│       ├── notebooks/
+│       ├── graficos/
+│       └── apresentacao/
 │
-└── unidade-04-python-preparacao-dados/
-    └── dados_tratados/
-    └── documentacao/
-    ├── notebooks/
+└── README.md
 ```
 
----
+------------------------------------------------------------------------
 
-## 📂 Dataset
+# 📂 Dataset
 
-As atividades utilizam **dados públicos referentes a acidentes rodoviários registrados pela Polícia Rodoviária Federal (PRF)**, com foco nos dados do ano de **2025**.
+O projeto utiliza dados públicos de acidentes rodoviários registrados
+pela **Polícia Rodoviária Federal (PRF)** referentes ao ano de 2025.
 
-O conjunto de dados original é mantido separado dos arquivos produzidos durante as etapas de análise e transformação.
+O dataset original é mantido separado dos artefatos gerados durante as
+etapas de análise, tratamento e visualização.
 
----
+------------------------------------------------------------------------
 
-## 🎯 Objetivo
+# 🎯 Objetivo
 
-Além de reunir as atividades acadêmicas desenvolvidas durante o módulo, este repositório tem como objetivo documentar a evolução prática na utilização de diferentes ferramentas aplicadas ao processo de análise de dados.
+Este repositório tem como objetivo documentar a evolução prática no
+desenvolvimento de habilidades relacionadas à análise de dados,
+demonstrando diferentes etapas do processo:
 
-### Fluxo de aprendizado
+**Exploração → Tratamento → Consulta → Análise → Insight → Decisão**
 
-**Excel → SQL → Python**
+A proposta é apresentar uma evolução contínua utilizando ferramentas
+amplamente utilizadas no mercado de dados.
 
-A proposta é demonstrar, de forma prática, diferentes etapas do trabalho com dados, desde a exploração inicial até a preparação e transformação dos conjuntos de dados.
+------------------------------------------------------------------------
 
----
+# 👤 Autor
 
-## 👤 Autor
+## Jefferson Araújo
 
-**Jefferson Araújo**
+GitHub: https://github.com/JJeffersonAraujo
 
-* GitHub: https://github.com/JJeffersonAraujo
-* LinkedIn: https://www.linkedin.com/in/jefferson-araujo-102151a1/
+LinkedIn: https://www.linkedin.com/in/jefferson-araujo-102151a1/
