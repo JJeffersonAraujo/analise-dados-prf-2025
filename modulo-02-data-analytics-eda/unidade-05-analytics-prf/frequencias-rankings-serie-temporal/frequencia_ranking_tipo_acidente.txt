@@ -1,0 +1,65 @@
+FREQUÊNCIA E RANKING — TIPO DE ACIDENTE
+
+1.  OBJETIVO
+
+O objetivo desta análise é comparar os principais tipos de acidente
+registrados, considerando a quantidade de ocorrências, o número de
+mortos, o número de feridos e o percentual de acidentes fatais.
+
+A ideia é identificar quais tipos de acidente aparecem com maior
+frequência e quais apresentam maior gravidade.
+
+2.  RESULTADO
+
+Maiores volumes de acidentes:
+
+1º Colisão traseira — 14.360 acidentes 2º Saída de leito carroçável —
+10.209 acidentes 3º Colisão transversal — 9.306 acidentes 4º Colisão
+lateral mesmo sentido — 7.885 acidentes 5º Tombamento — 6.351 acidentes
+
+Maiores percentuais de acidentes fatais:
+
+1º Atropelamento de Pedestre — 30% 2º Colisão frontal — 29% 3º Colisão
+lateral sentido oposto — 10% 4º Eventos atípicos — 8% 5º Saída de leito
+carroçável / Colisão com objeto / Atropelamento de Animal — 6%
+
+3.  ANÁLISE DOS DADOS
+
+Os dados mostram que a colisão traseira é o tipo de acidente mais
+frequente, com 14.360 registros, representando aproximadamente 20% do
+total analisado. Apesar do grande volume, apresenta percentual de
+acidentes fatais inferior aos tipos mais graves.
+
+A saída de leito carroçável aparece em seguida, com 10.209 acidentes,
+enquanto a colisão transversal registra 9.306 ocorrências.
+
+Os acidentes que mais chamam atenção em relação à gravidade são o
+atropelamento de pedestre e a colisão frontal. O atropelamento de
+pedestre apresenta o maior percentual de acidentes fatais, com 30%.
+
+A colisão frontal apresenta percentual próximo, com 29%, e se destaca
+pelo elevado número de mortes, sendo um dos tipos de acidente mais
+graves da análise.
+
+Os resultados mostram que frequência e gravidade são indicadores
+diferentes. Um acidente pode ocorrer muitas vezes e apresentar menor
+proporção de fatalidade, enquanto outro pode ocorrer menos vezes e
+possuir consequências mais graves.
+
+Também é importante observar que percentuais associados a tipos com
+menor quantidade de registros devem ser interpretados com cautela, pois
+pequenas variações podem alterar significativamente a proporção.
+
+4.  CONCLUSÕES
+
+A análise mostra que a colisão traseira é o tipo de acidente mais
+frequente, enquanto o atropelamento de pedestre apresenta o maior
+percentual de acidentes fatais.
+
+A colisão frontal também se destaca pela gravidade apresentada.
+
+Dessa forma, fica evidente que volume de ocorrências e severidade
+representam perspectivas diferentes da análise de acidentes.
+
+Esses resultados ajudam a identificar quais tipos de acidente merecem
+maior atenção considerando frequência e impacto.
