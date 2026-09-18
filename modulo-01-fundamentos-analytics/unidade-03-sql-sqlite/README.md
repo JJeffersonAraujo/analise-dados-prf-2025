@@ -6,6 +6,27 @@ A atividade teve como objetivo transformar o conjunto de dados em consultas e in
 
 ---
 
+## 📝 Atividades Desenvolvidas
+
+### Atividade 3 — Classificação Inicial das Variáveis
+
+Nesta atividade foi realizada a classificação inicial das variáveis do conjunto de dados da PRF 2025 conforme sua função analítica.
+
+As variáveis foram organizadas em quatro grupos:
+
+- **Temporais:** `data_inversa`, `horario`, `dia_semana`;
+- **Geográficas:** `uf`, `br`, `municipio`, `km`;
+- **Explicativas do acidente:** `causa_acidente`, `tipo_acidente`, `fase_dia`, `tipo_pista`;
+- **Gravidade / Desfecho:** `mortos`, `feridos`, `pessoas`.
+
+A atividade também destaca que as variáveis de **gravidade/desfecho** representam consequências observadas do acidente e, portanto, não devem ser utilizadas como variáveis explicativas.
+
+**Arquivo da atividade:**
+
+`Atividade_03_Classificacao_Inicial_Variaveis_PRF_2025.pdf`
+
+---
+
 ## 🎯 Objetivo
 
 Aplicar consultas SQL sobre os dados da PRF para:
@@ -100,6 +121,8 @@ sql/projeto_prf_analytics.sql
 unidade-03-sql-sqlite/
 │
 ├── README.md
+│
+├── Atividade_03_Classificacao_Inicial_Variaveis_PRF_2025.pdf
 │
 ├── sql/
 │   └── projeto_prf_analytics.sql
