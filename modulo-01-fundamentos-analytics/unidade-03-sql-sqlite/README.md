@@ -6,27 +6,6 @@ A atividade teve como objetivo transformar o conjunto de dados em consultas e in
 
 ---
 
-## 📝 Atividades Desenvolvidas
-
-### Atividade 3 — Classificação Inicial das Variáveis
-
-Nesta atividade foi realizada a classificação inicial das variáveis do conjunto de dados da PRF 2025 conforme sua função analítica.
-
-As variáveis foram organizadas em quatro grupos:
-
-- **Temporais:** `data_inversa`, `horario`, `dia_semana`;
-- **Geográficas:** `uf`, `br`, `municipio`, `km`;
-- **Explicativas do acidente:** `causa_acidente`, `tipo_acidente`, `fase_dia`, `tipo_pista`;
-- **Gravidade / Desfecho:** `mortos`, `feridos`, `pessoas`.
-
-A atividade também destaca que as variáveis de **gravidade/desfecho** representam consequências observadas do acidente e, portanto, não devem ser utilizadas como variáveis explicativas.
-
-**Arquivo da atividade:**
-
-`Atividade_03_Classificacao_Inicial_Variaveis_PRF_2025.pdf`
-
----
-
 ## 🎯 Objetivo
 
 Aplicar consultas SQL sobre os dados da PRF para:
@@ -55,20 +34,20 @@ Aplicar consultas SQL sobre os dados da PRF para:
 
 As consultas SQL foram utilizadas para gerar diferentes indicadores e recortes analíticos dos acidentes registrados pela PRF em 2025.
 
-| Arquivo                               | Análise                                                       |
-| ------------------------------------- | ------------------------------------------------------------- |
-| `resultado_uf.csv`                    | Distribuição dos acidentes por Unidade Federativa             |
-| `resultado_br.csv`                    | Análise dos acidentes por rodovia federal                     |
-| `resultado_mensal.csv`                | Distribuição mensal das ocorrências                           |
-| `resultado_causa.csv`                 | Análise das principais causas dos acidentes                   |
-| `resultado_clima.csv`                 | Distribuição conforme as condições meteorológicas             |
-| `resultado_fase_dia.csv`              | Análise dos acidentes conforme a fase do dia                  |
-| `resultado_tipo_acidente.csv`         | Distribuição por tipo de acidente                             |
-| `resultado_tipo_pista.csv`            | Análise conforme o tipo de pista                              |
-| `resultado_bivariado.csv`             | Análise envolvendo a relação entre duas variáveis             |
+| Arquivo | Análise |
+| --- | --- |
+| `resultado_uf.csv` | Distribuição dos acidentes por Unidade Federativa |
+| `resultado_br.csv` | Análise dos acidentes por rodovia federal |
+| `resultado_mensal.csv` | Distribuição mensal das ocorrências |
+| `resultado_causa.csv` | Análise das principais causas dos acidentes |
+| `resultado_clima.csv` | Distribuição conforme as condições meteorológicas |
+| `resultado_fase_dia.csv` | Análise dos acidentes conforme a fase do dia |
+| `resultado_tipo_acidente.csv` | Distribuição por tipo de acidente |
+| `resultado_tipo_pista.csv` | Análise conforme o tipo de pista |
+| `resultado_bivariado.csv` | Análise envolvendo a relação entre duas variáveis |
 | `resultado_percentual_letalidade.csv` | Indicador percentual relacionado à letalidade das ocorrências |
-| `vw_indicadores_mensais.csv`          | Resultado da View de indicadores mensais                      |
-| `vw_indicadores_uf_br.csv`            | Resultado da View de indicadores por UF e BR                  |
+| `vw_indicadores_mensais.csv` | Resultado da View de indicadores mensais |
+| `vw_indicadores_uf_br.csv` | Resultado da View de indicadores por UF e BR |
 
 ---
 
@@ -121,8 +100,6 @@ sql/projeto_prf_analytics.sql
 unidade-03-sql-sqlite/
 │
 ├── README.md
-│
-├── Atividade_03_Classificacao_Inicial_Variaveis_PRF_2025.pdf
 │
 ├── sql/
 │   └── projeto_prf_analytics.sql
