@@ -12,6 +12,39 @@ Transformar dados brutos de acidentes rodoviários em informações estruturadas
 
 ---
 
+## 📝 Atividades Desenvolvidas
+
+### 1. Análise e visualização dos acidentes
+
+A atividade principal da unidade envolve a organização dos dados de acidentes de 2025, aplicação de fórmulas, criação de Tabelas Dinâmicas, análises estatísticas e construção de gráficos.
+
+O resultado está documentado no arquivo:
+
+`analise-visualizacao-acidentes-prf.xlsx`
+
+---
+
+### 2. Do Dado à Decisão
+
+Nesta atividade foi trabalhada a transformação de um registro de acidente em uma sequência lógica de análise:
+
+**Dado → Informação → Insight possível → Decisão possível**
+
+A situação analisada considera um acidente com:
+
+- **2 mortos**;
+- **Plena Noite**;
+- **Colisão frontal**;
+- **Pista Simples**.
+
+A atividade também reforça a necessidade de evitar conclusões causais a partir de um único registro.
+
+**Arquivo da atividade:**
+
+`Atividade_02_Do_Dado_a_Decisao_PRF_2025.pdf`
+
+---
+
 ## 📁 Organização da Planilha
 
 O arquivo está dividido nas seguintes abas:
@@ -107,4 +140,5 @@ Entre os pontos observados, destaca-se a importância de interpretar os dados de
 unidade-02-excel-analise-visualizacao/
 │
 ├── README.md
-└── analise-visualizacao-acidentes-prf.xlsx
+├── analise-visualizacao-acidentes-prf.xlsx
+└── Atividade_02_Do_Dado_a_Decisao_PRF_2025.pdf
